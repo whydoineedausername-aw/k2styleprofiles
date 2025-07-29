@@ -1,0 +1,156 @@
+/* Reset styles */
+
+.theme-entry * {
+	border-radius: 0 !important;
+}
+
+.theme-entry {
+	font-size: 11px !important;
+}
+
+/* Boxes and Headers */
+
+.theme-entry .grid,
+.theme-entry .panel {
+	border: 1px solid #adae9c !important;
+}
+
+.theme-entry .grid-header,
+.theme-entry .SourceCodeFormsControlsWorklist .nav {
+	border-bottom: 1px solid #adae9c !important;
+}
+
+.theme-entry .panel-header {
+	border-bottom: 2px solid #adae9c !important;
+}
+
+.theme-entry .worklistToolbarHeaderTextWrapper,
+.theme-entry .grid-header-wrapper,
+.theme-entry .panel-header-wrapper {
+	background-image: linear-gradient(to bottom,#f9f9f9 0%,#dfe4d7 100%) !important; /* Apply green/gray background gradient */
+	border-bottom: 1px solid #fff;
+}
+
+/* Worklist Grid */
+
+.theme-entry .WorkListItemTableHeader th {
+	color: #d43641 !important; /* Red text */
+	background: linear-gradient(to bottom,#f9f9f9 0%,#dfe4d7 100%) !important; /* Apply gray background */
+}
+
+.theme-entry .WorkListItemTableHeader .worklist-grid-column-header-cell-text {
+	font-weight: bold !important; /* Apply bold text formatting */
+	text-transform: initial !important; /* Remove upper-casing */
+}
+
+/* Toolbars */
+
+.theme-entry .grid-toolbars,
+.theme-entry .grid-footer .toolbars {
+	background: linear-gradient(to bottom,#f9f9f9 0%,#dfe4d7 100%) !important; /* Apply gray background */
+}
+
+.theme-entry .grid-footer .toolbars {
+	border-top: 1px solid #adae9c !important;
+}
+
+.theme-entry .grid-footer .toolbars .toolbar-button {
+	border: 1px solid #adae9c !important;
+
+	/* Adjust position/height of paging buttons at the bottom of the form */
+	top: -1px !important;
+	min-height: 26px !important;
+}
+
+.theme-entry .grid-footer .toolbars .toolbar-button * {
+
+}
+
+.theme-entry .grid-toolbars .SourceCode-Forms-Controls-Web-Button,
+.theme-entry .toolbar-button {
+	border: 1px solid #adae9c !important;
+	margin: 4px !important;
+	height: auto !important;
+	background: linear-gradient(to bottom,#f9f9f9 0%,#f9f9f9 40%,#dfe4d7 60%,#dfe4d7 100%) !important; /* Apply gray background */	
+}
+
+.theme-entry .toolbar-button.disabled {
+	background: linear-gradient(to bottom,#e9e9e9 0%,#e9e9e9 40%,#cfd4c7 60%,#cfd4c7 100%) !important; /* Apply gray background */
+}
+
+.theme-entry .grid-toolbars .toolbar-button .button-text {
+	line-height: 3.0rem !important; /* Center button text with icon */
+}
+
+.theme-entry .grid-toolbars .input-control,
+.theme-entry .grid-footer .toolbars .input-control {
+	background: #fff; /* Apply white background to text boxes */
+	color: #000 !important;
+}
+
+.theme-entry .grid-toolbars .dropdown {
+	background: linear-gradient(to bottom,#f9f9f9 0%,#f9f9f9 40%,#dfe4d7 60%,#dfe4d7 100%) !important; /* Apply gray background */
+	border: 1px solid #adae9c !important; /* Add border */
+}
+
+/* Grid */
+
+.theme-entry .grid-column-header-table td {
+	background: linear-gradient(to bottom,#f9f9f9 0%,#dfe4d7 100%) !important; /* Apply gray background */
+	
+	/* Add border to table header */
+	border-right-color: #adae9c !important; 
+	border-top-color: #adae9c !important;
+	border-bottom-color: #adae9c !important;
+}
+
+.theme-entry .grid-column-header-text {
+	color: #d43641 !important; /* Red text */
+	text-transform: initial !important; /* Remove upper-casing */
+	font-weight: bold !important; /* Apply bold formatting */
+}
+
+.theme-entry .grid .highlighted td,
+.theme-entry .grid .selected td,
+.theme-entry .grid tr:hover td {
+	background-color: #e4efc3 !important; /* Change highlight color */
+	color: #000 !important; /* Change highlight text color */
+	
+}
+
+.theme-entry .grid .highlighted td {
+	border-top-color: #87c41f !important;	/* Change highlight border */
+	border-bottom-color: #87c41f !important; 	/* Change highlight border */
+}
+
+.theme-entry .grid .highlighted td.first {
+	border-left-color: #87c41f !important; /* Change highlight border on left of leftmost cell */
+}
+
+.theme-entry .grid .highlighted td.last {
+	border-right-color: #87c41f !important; /* Change highlight border on right of rightmost cell */
+}
+
+/* Buttons */
+
+.theme-entry .SourceCode-Forms-Controls-Web-Button {
+	border: 2px solid #9d9e8c !important;
+	background: linear-gradient(to bottom,#f9f9f9 0%,#f9f9f9 40%,#dfe4d7 60%,#dfe4d7 100%) !important; /* Apply gray background */		
+}
+
+/* Popups */
+
+.theme-entry .full.without-toolbar.with-header.grid .grid-body,
+.theme-entry .full.with-toolbar.without-header.grid .grid-body,
+.theme-entry #FilterConfig_secondPageInternal .filter-body-content {
+	top: 4rem !important; /* Create extra space for toolbar */
+}
+
+.theme-entry a.SourceCode-Forms-Controls-Web-Button.help {
+	height: 32px !important; /* Match height of other buttons */
+}
+
+.theme-entry a.SourceCode-Forms-Controls-Web-Button.help .Button-Image {
+	background-image: url(https://bushk2csstesting.blob.core.windows.net/bushk2csstesting/SpriteDesktop.png) !important; /* Replace spritesheet with one that has darker "i" icons */
+	margin-top: 6px !important; /* Center the icon in the button */
+}
